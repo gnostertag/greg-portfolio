@@ -1,27 +1,21 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css';
-import Home from './components/pages/Home';
-// import video from 'public/videos/video-1.mp4'
+import "./App.css";
+import Home from "./components/pages/Home";
+
 function App() {
   return (
-   <>
-    <Router>
-      <div className='App'>
-        
-      </div>
+    <>
+      <Router>
+        <div className="App"></div>
 
-    <Navbar/>
-    <Routes>
-       <Route path='/' exact element={<Home/>} />
-    </Routes>
-    
- 
-    </Router>
-   </>
-    
+        <Navbar />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
-// path='/Home' exact element={<Home/>}
 export default App;
