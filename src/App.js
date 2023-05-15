@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/pages/Home";
+import Projects from "./components/pages/Projects";
+import Experience from "./components/pages/Experience";
+import Contact from "./components/pages/Contact";
 
 function App() {
   return (
@@ -12,7 +15,10 @@ function App() {
 
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </>
