@@ -13,16 +13,25 @@
   justify-content: center;
   font-size: 3rem;
 }
+.contact-image {
+  background-image: url('./assets/img-3.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 20px;
+  min-height: 100vh;
+}
 
-/* .projects {
+ /* .projects {
     background-image: url('./images/img-2.jpg'); 
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-}
-
+} */
+/* 
 .experience {
     background-image: url('./images/img-3.jpg');
     background-position: center;
@@ -30,4 +39,4 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
-}  */
+}   */

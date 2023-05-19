@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-// import { Button } from "./Button";
 import "./HomePage.css";
 import video from "../assets/video-1.mp4";
 
