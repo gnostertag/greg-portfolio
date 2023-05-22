@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience() {
   return (
-    <div>About Me</div>
+    <div className='experience-image'>About Me</div>
   )
 }
 
