@@ -14,29 +14,20 @@
   font-size: 3rem;
 }
 .contact-image {
-  background-image: url('./assets/img-3.jpg');
+  background-image: url("./assets/img-3.jpg");
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 20px;
   min-height: 100vh;
 }
-
- /* .projects {
-    background-image: url('./images/img-2.jpg'); 
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-} */
-/* 
-.experience {
-    background-image: url('./images/img-3.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-}   */
+.experience-image {
+  background-image: url("./assets/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 20px;
+  min-height: 100vh;
+}
