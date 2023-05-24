@@ -1,10 +1,16 @@
 import React from 'react'
-// import image from '../assets/img-3.jpg'
+import Image1 from '../assets/github-logo.png'
+import Image2 from '../assets/linkedin-logo.png'
 
 function Contact() {
   return (
-    <div className='contact-image'>Contact
-      
+    <div className='contact-image'>
+      <a href={'https://github.com/gnostertag'} className='github-container'>
+      <img src={Image1} alt='Github Profile' className='github-logo'/>
+      </a>
+      <a href={'https://www.linkedin.com/in/greg-ostertag/'}>
+        <img src={Image2} alt='Linkedin profile'/>
+      </a>
     </div>
   )
 }

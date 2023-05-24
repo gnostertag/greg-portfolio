@@ -41,9 +41,27 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.profile-image {
-  background-image: url('./assets/profile-pic.png');
-  background-position: center;
-  background-size: cover;
-  width: 100%;
+.github-container {
+  display: flex;
+  align-items: center;
 }
+
+.github-logo {
+  display: flex;
+  align-items: center;
+}
+
+.github-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.github-logo:hover img {
+  transform: rotate(360deg);
+}
+
+
