@@ -41,27 +41,25 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.github-container {
+/* .github-container {
   display: flex;
   align-items: center;
-}
+} */
 
-.github-logo {
+/* .github-logo {
   display: flex;
   align-items: center;
-}
+} */
 
-.github-logo img {
+/* .github-logo img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   margin-right: 10px;
   object-fit: cover;
   transition: transform 0.3s ease;
-}
+} */
 
-.github-logo:hover img {
-  transform: rotate(360deg);
-}
+
 
 
