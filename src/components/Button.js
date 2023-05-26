@@ -5,14 +5,7 @@ import { Link } from "react-router-dom";
 const STYLES = ["btn--primary", "btn--outline"];
 const SIZES = ["btn--medium", "btn--large"];
 
-export const Button = ({
-  children,
-  type,
-  onClick,
-  buttonStyle,
-  // buttonSize,
-  to
-}) => {
+export const Button = ({ children, type, onClick, buttonStyle, to }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
