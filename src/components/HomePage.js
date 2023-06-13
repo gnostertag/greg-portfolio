@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./HomePage.css";
-import video from "../assets/video-1.mp4";
+import video from "../assets/aurora.mp4";
 
 function HomePage() {
   return (
