@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardBody, CardTitle, CardText, Button } from "reactstrap";
 import Image from "../assets/TicTacToe image.png";
 import Gtai from "../assets/GTAI.png";
-import Treasure from "../assets/treasure-hunt-screenshot.png"
+import Treasure from "../assets/treasure-hunt-screenshot.png";
 function Projects() {
   return (
     <>
@@ -10,7 +10,6 @@ function Projects() {
         <Card
           style={{
             width: "18rem",
-            
           }}
         >
           <img alt="Sample" src={Image} className="tic-image" />
@@ -56,12 +55,9 @@ function Projects() {
           <CardBody>
             <CardTitle tag="h5">Treasure Hunt</CardTitle>
 
-            <CardText>
-              Full-Stack car buying, selling, and stealing application created
-              using React and Rails
-            </CardText>
+            <CardText>Treasure Hunt game created using React</CardText>
             <Button
-              href={""}
+              href={"https://treasure-hunt-0nnd.onrender.com"}
               className="button-3"
             >
               See Project
