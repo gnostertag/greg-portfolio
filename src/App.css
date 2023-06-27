@@ -63,6 +63,7 @@
   justify-content: space-around;
 }
 .experience {
+  background-image: url('./assets/img-1.jpg');
   background-color: black; 
   color: #fff;
   font-size: 20px;
