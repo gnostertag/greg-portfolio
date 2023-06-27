@@ -63,7 +63,9 @@
   justify-content: space-around;
 }
 .experience {
-  background-color: black; 
+  background-image: url('./assets/night-background.jpg');
+  background-position: center;
+  background-size: cover;
   color: #fff;
   font-size: 20px;
   min-height: 100vh;
