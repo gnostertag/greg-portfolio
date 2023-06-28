@@ -3,7 +3,7 @@ import "../App.css";
 import "./HomePage.css";
 import video from "../assets/aurora.mp4";
 import { useEffect, useState } from 'react';
-import mobileImage from 
+import mobileImage from "../assets/forest-background.jpg"
 // function HomePage() {
 //   return (
 //     <>
