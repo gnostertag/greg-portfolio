@@ -44,13 +44,16 @@
   margin-bottom: 20px;
 }
 .contact-image {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 20px;
-  min-height: 100vh;
+  position: relative;
 }
+
+.contact-image video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 .project-image {
   background-image: url("./assets/img-3.jpg");
   background-position: center;
