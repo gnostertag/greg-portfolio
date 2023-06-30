@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./HomePage.css";
-import video from "../assets/aurora.mp4";
+import video from "../assets/fire.mp4";
 import { useEffect, useState } from "react";
 import mobileImage from "../assets/forest-background.jpg";
 
