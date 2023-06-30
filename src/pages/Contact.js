@@ -9,8 +9,8 @@ function Contact() {
       <a href={"https://github.com/gnostertag"} className="github-container">
         <img src={Image1} alt="Github Profile" className="github-logo" />
       </a>
-      <a href={"https://www.linkedin.com/in/greg-ostertag/"}>
-        <img src={Image2} alt="Linkedin profile" />
+      <a href={"https://www.linkedin.com/in/greg-ostertag/"} className="linkedin-container">
+        <img src={Image2} alt="Linkedin profile" className="linkedin-logo"/>
       </a>
     </div>
   );
