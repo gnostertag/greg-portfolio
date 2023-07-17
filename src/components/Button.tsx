@@ -1,11 +1,26 @@
-import React from "react";
+import React, { CSSProperties, MouseEventHandler } from "react";
 import "./Button.css";
 import { Link } from "react-router-dom";
+import { type } from "os";
 
 const STYLES = ["btn--primary", "btn--outline"];
 const SIZES = ["btn--medium", "btn--large"];
 
-export const Button = ({ children, type, onClick, buttonStyle, to }) => {
+export interface ButtonProps {
+  children: React.ReactNode;
+  type: "button";
+  onClick: MouseEventHandler;
+  buttonStyle: string;
+  to: string;
+}
+
+export const Button = ({
+  children,
+  type,
+  onClick,
+  buttonStyle,
+  to,
+}: ButtonProps) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];

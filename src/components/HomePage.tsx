@@ -18,13 +18,14 @@ function HomePage() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+
   return (
     <>
       <div className="home-container">
         {isMobile ? (
           <img src={mobileImage} alt="Mobile" />
         ) : (
-          <video src={video} autoPlay loop muted type="video/mp4" />
+          <video src={video} autoPlay loop muted  />
         )}
         <h1 className="home-text">Welcome</h1>
       </div>

@@ -7,6 +7,10 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
+  const handleButtonClick: React.MouseEventHandler<HTMLButtonElement> = () => {
+    // Handle button click
+  };
+
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
@@ -55,16 +59,36 @@ function Navbar() {
           </ul>
           {button && (
             <>
-              <Button to="/projects" buttonStyle="btn--outline">
+              <Button
+                type="button"
+                onClick={handleButtonClick}
+                to="/projects"
+                buttonStyle="btn--outline"
+              >
                 Projects
               </Button>
-              <Button to="/experience" buttonStyle="btn--outline">
+              <Button
+                type="button"
+                onClick={handleButtonClick}
+                to="/experience"
+                buttonStyle="btn--outline"
+              >
                 Experience
               </Button>
-              <Button to="/contact" buttonStyle="btn--outline">
+              <Button
+                type="button"
+                onClick={handleButtonClick}
+                to="/contact"
+                buttonStyle="btn--outline"
+              >
                 Contact
               </Button>
-              <Button to="/" buttonStyle="btn--outline">
+              <Button
+                type="button"
+                onClick={handleButtonClick}
+                to="/"
+                buttonStyle="btn--outline"
+              >
                 Home
               </Button>
             </>
