@@ -18,7 +18,6 @@ function HomePage() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
   return (
     <>
       <div className="home-container">

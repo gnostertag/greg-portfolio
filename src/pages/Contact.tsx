@@ -2,7 +2,6 @@ import React from "react";
 import Image1 from "../assets/github-logo.png";
 import Image2 from "../assets/linkedin-logo.png";
 import video from "../assets/aurora.mp4";
-
 function Contact() {
   return (
     <div className="contact-image">
@@ -18,3 +17,4 @@ function Contact() {
 }
 
 export default Contact;
+
