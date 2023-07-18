@@ -24,7 +24,7 @@ function HomePage() {
         {isMobile ? (
           <img src={mobileImage} alt="Mobile" />
         ) : (
-          <video src={video} autoPlay loop muted  />
+          <video src={video} autoPlay loop muted />
         )}
         <h1 className="home-text">Welcome</h1>
       </div>

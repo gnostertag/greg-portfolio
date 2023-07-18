@@ -4,7 +4,6 @@ import HomePage from "../components/HomePage";
 function Home() {
   return (
     <>
-    {/* <div id="root"></div> */}
       <HomePage />
     </>
   );

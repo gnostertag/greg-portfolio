@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
@@ -8,9 +7,9 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
-  const handleButtonClick: React.MouseEventHandler<HTMLButtonElement> = () => {
-    // Handle button click
-  };
+  const handleButtonClick: React.MouseEventHandler<
+    HTMLButtonElement
+  > = () => {};
 
   const closeMobileMenu = () => setClick(false);
 
@@ -101,5 +100,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-
