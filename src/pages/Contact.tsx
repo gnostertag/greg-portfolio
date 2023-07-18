@@ -5,16 +5,18 @@ import video from "../assets/aurora.mp4";
 function Contact() {
   return (
     <div className="contact-image">
-      <video src={video} autoPlay loop muted  />
+      <video src={video} autoPlay loop muted />
       <a href={"https://github.com/gnostertag"} className="github-container">
         <img src={Image1} alt="Github Profile" className="github-logo" />
       </a>
-      <a href={"https://www.linkedin.com/in/greg-ostertag/"} className="linkedin-container">
-        <img src={Image2} alt="Linkedin profile" className="linkedin-logo"/>
+      <a
+        href={"https://www.linkedin.com/in/greg-ostertag/"}
+        className="linkedin-container"
+      >
+        <img src={Image2} alt="Linkedin profile" className="linkedin-logo" />
       </a>
     </div>
   );
 }
 
 export default Contact;
-
